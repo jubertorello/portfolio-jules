@@ -22,10 +22,32 @@ const jetbrains = JetBrains_Mono({
   weight: ["400"],
 });
 
+// URL pública para las etiquetas de compartir: NEXT_PUBLIC_SITE_URL si está definida; si no, el dominio de
+// producción de Vercel; en local, localhost.
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000");
+
+const title = "by Jules — Desarrollo web freelance";
+const description =
+  "Soy Jules, desarrolladora freelance. Diseño y programo webs, tiendas, aplicaciones y automatizaciones a medida.";
+
+// La imagen para compartir y los iconos salen de app/opengraph-image.tsx, icon.tsx y apple-icon.tsx.
 export const metadata: Metadata = {
-  title: "by Jules — Desarrollo web freelance",
-  description:
-    "Soy Jules, desarrolladora freelance. Diseño y programo webs, tiendas, aplicaciones y automatizaciones a medida.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  openGraph: {
+    type: "website",
+    locale: "es_ES",
+    siteName: "by Jules",
+    title,
+    description,
+    url: "/",
+  },
+  twitter: { card: "summary_large_image", title, description },
 };
 
 export const viewport: Viewport = {
