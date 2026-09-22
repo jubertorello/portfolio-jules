@@ -1,0 +1,206 @@
+[
+  {
+    "slug": "kish-and-go",
+    "cliente": "Kish&Go",
+    "tipo": "Tienda Shopify",
+    "cat": "Tiendas",
+    "stack": "Shopify · Tema a medida",
+    "anio": "2026",
+    "dominio": "kishandgo.com",
+    "desc": "Quiches artesanales sin gluten en Madrid. Tienda Shopify con recogida en obrador, envíos por franjas horarias y catálogo por tamaños.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/kish-and-go.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/kish-and-go-mobile.webp"
+  },
+  {
+    "slug": "patsy",
+    "cliente": "Patsy",
+    "tipo": "Tienda Shopify",
+    "cat": "Tiendas",
+    "stack": "Shopify · Tema a medida",
+    "anio": "2026",
+    "dominio": "patsy.shoes",
+    "desc": "Marca de calzado. Tienda Shopify con catálogo por modelos y tallas, fichas de producto y checkout optimizado.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/patsy.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/patsy-mobile.webp"
+  },
+  {
+    "slug": "jarana",
+    "cliente": "Jarana",
+    "tipo": "Web de eventos",
+    "cat": "Webs",
+    "stack": "Web a medida · Agenda",
+    "anio": "2026",
+    "dominio": "jaranaparatodos.com",
+    "desc": "Proyecto de eventos y fiestas para todos los públicos. Web con agenda, galería y contacto para contrataciones.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/jarana.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/jarana-mobile.webp"
+  },
+  {
+    "slug": "all-in-sports",
+    "cliente": "All in Sports Group",
+    "tipo": "Web corporativa",
+    "cat": "Webs",
+    "stack": "Web a medida · Bilingüe ES/EN",
+    "anio": "2026",
+    "dominio": "allinsports.group",
+    "desc": "Agencia global de representación deportiva: fútbol, pádel, golf y tenis. Web bilingüe con áreas de servicio, perfiles de deportistas y SEO técnico.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/all-in-sports.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/all-in-sports-mobile.webp"
+  },
+  {
+    "slug": "andrea-sartori",
+    "cliente": "Andrea Sartori Inmobiliaria",
+    "tipo": "Web inmobiliaria",
+    "cat": "Webs",
+    "stack": "Web a medida · Fichas de propiedad",
+    "anio": "2026",
+    "dominio": "andreasartoriinmobiliaria.com",
+    "desc": "Inmobiliaria con catálogo de propiedades, fichas con galería y contacto directo por inmueble.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/andrea-sartori.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/andrea-sartori-mobile.webp"
+  },
+  {
+    "slug": "oma-by-luchi",
+    "cliente": "Oma by Luchi",
+    "tipo": "Tienda Shopify",
+    "cat": "Tiendas",
+    "stack": "Shopify · Tema a medida",
+    "anio": "2026",
+    "dominio": "omabyluchi.com",
+    "desc": "Obrador de postres artesanales en Aravaca. Pedido online con recogida en tienda y catálogo de tartas y cookies.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/oma-by-luchi.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/oma-by-luchi-mobile.webp"
+  },
+  {
+    "slug": "volver-a-casa",
+    "cliente": "Volver a Casa",
+    "tipo": "Web de proyecto social",
+    "cat": "Webs",
+    "stack": "Next.js · Web a medida",
+    "anio": "2026",
+    "dominio": "volveracasa.fundacionmanantial.org",
+    "desc": "Proyecto de innovación social de Fundación Manantial que acompaña a niños y niñas en acogimiento residencial y a sus familias en procesos de reunificación familiar. Web con el proyecto, sus objetivos, experiencias, actualidad y vídeos.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/volver-a-casa.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/volver-a-casa-mobile.webp"
+  },
+  {
+    "slug": "eter",
+    "cliente": "Éter",
+    "tipo": "Web de bar de cócteles",
+    "cat": "Webs",
+    "stack": "Web a medida · Carta digital",
+    "anio": "2026",
+    "dominio": "eter-bar.vercel.app",
+    "desc": "Bar de cócteles de autor. Web de atmósfera oscura con carta digital, reservas y presentación de espacio.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/eter.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/eter-mobile.webp"
+  },
+  {
+    "slug": "mariu-y-nacho",
+    "cliente": "Mariu & Nacho",
+    "tipo": "Invitación digital de boda",
+    "cat": "Invitaciones",
+    "stack": "Web a medida · RSVP",
+    "anio": "2026",
+    "dominio": "mariu-y-nacho.vercel.app",
+    "desc": "Invitación digital de boda: cuenta atrás, itinerario del día, ubicaciones, confirmación de asistencia y lista de regalos.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/mariu-y-nacho.webp",
+    "embeddable": true,
+    "extra": "Panel de control privado: confirmaciones, autobús, dietas y export a Excel",
+    "extraImages": [
+      {
+        "src": "/screenshots/mariu-y-nacho-panel.webp",
+        "alt": "Panel de control de confirmaciones",
+        "width": 2940,
+        "height": 1592
+      },
+      {
+        "src": "/screenshots/mariu-y-nacho-detalle.webp",
+        "alt": "Detalle de una confirmación",
+        "width": 1194,
+        "height": 1222
+      }
+    ],
+    "screenshotMobile": "/screenshots/mariu-y-nacho-mobile.webp"
+  },
+  {
+    "slug": "unrated",
+    "cliente": "UNRATED",
+    "tipo": "Web de agencia creativa",
+    "cat": "Webs",
+    "stack": "Web a medida · Motion",
+    "anio": "2026",
+    "dominio": "unratedagency.com",
+    "desc": "Agencia creativa de Barcelona especializada en eventos y producción. Web de presentación con ritmo editorial y animaciones sutiles.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/unrated.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/unrated-mobile.webp"
+  },
+  {
+    "slug": "faro",
+    "cliente": "F.A.R.O",
+    "tipo": "App de planificación personal",
+    "cat": "Apps",
+    "stack": "Next.js · PWA · Suscripción",
+    "anio": "2026",
+    "dominio": "planificadorfaro.com",
+    "desc": "Planificador personal instalable como app: hábitos con seguimiento diario, objetivos, agenda y planificación semanal guiada, con plan gratuito y premium.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/faro.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/faro-app-hoy.webp",
+    "extra": "La app por dentro: hoy, calendario y progreso",
+    "extraImages": [
+      {
+        "src": "/screenshots/faro-app-hoy.webp",
+        "alt": "Pantalla Hoy de F.A.R.O",
+        "width": 923,
+        "height": 2000
+      },
+      {
+        "src": "/screenshots/faro-app-calendario.webp",
+        "alt": "Calendario mensual de F.A.R.O",
+        "width": 923,
+        "height": 2000
+      },
+      {
+        "src": "/screenshots/faro-app-progreso.webp",
+        "alt": "Pantalla de progreso de F.A.R.O",
+        "width": 923,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "slug": "twenty4-studios",
+    "cliente": "Twenty4 Studios",
+    "tipo": "Web de estudio creativo",
+    "cat": "Webs",
+    "stack": "Web a medida · Portfolio",
+    "anio": "2026",
+    "dominio": "twenty4studios.com",
+    "desc": "Estudio de producción audiovisual. Web portfolio con reels, casos de cliente y contacto comercial.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/twenty4-studios.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/twenty4-studios-mobile.webp"
+  }
+]

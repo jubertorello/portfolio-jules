@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+/* ── Tokens de color (README → Design Tokens) ─────────────────────────── */
+:root,
+html[data-theme="light"] {
+  --bg: #f4f1e9;
+  --fg: #1e1e1e;
+  --panel: #fbf8f1;
+  --chrome: #efebe2;
+  --pill: #e6e1d6;
+  --accent: #3e7fa6;
+  --accent-line: rgba(62, 127, 166, 0.45);
+  --muted: #8c8578;
+  --dim: #5a554c;
+  --faint: #a79f94;
+  --line: rgba(30, 30, 30, 0.12);
+  --line-soft: rgba(30, 30, 30, 0.09);
+  --line-strong: rgba(30, 30, 30, 0.2);
+  --dot: rgba(30, 30, 30, 0.16);
+  --nav-bg: rgba(244, 241, 233, 0.9);
+  --inv-dim: rgba(244, 241, 233, 0.7);
+  /* Fijos en el prototipo; tokenizados para que funcionen en oscuro. */
+  --bar-bg: rgba(245, 241, 233, 0.93);
+  --close-bg: rgba(253, 251, 247, 0.92);
+}
+
+html[data-theme="dark"] {
+  --bg: #1e1e1e;
+  --fg: #f4f1e9;
+  --panel: #252523;
+  --chrome: #2b2a28;
+  --pill: #343230;
+  --accent: #7fc0de;
+  --accent-line: rgba(127, 192, 222, 0.5);
+  --muted: #8f8880;
+  --dim: #a9a29a;
+  --faint: #726c65;
+  --line: rgba(244, 241, 233, 0.14);
+  --line-soft: rgba(244, 241, 233, 0.1);
+  --line-strong: rgba(244, 241, 233, 0.24);
+  --dot: rgba(244, 241, 233, 0.18);
+  --nav-bg: rgba(30, 30, 30, 0.9);
+  --inv-dim: rgba(30, 30, 30, 0.7);
+  --bar-bg: rgba(30, 30, 30, 0.93);
+  --close-bg: rgba(37, 37, 35, 0.92);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-panel: var(--panel);
+  --color-chrome: var(--chrome);
+  --color-pill: var(--pill);
+  --color-accent: var(--accent);
+  --color-accent-line: var(--accent-line);
+  --color-muted: var(--muted);
+  --color-dim: var(--dim);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-line-strong: var(--line-strong);
+  --color-dot: var(--dot);
+  --color-nav-bg: var(--nav-bg);
+  --color-bar-bg: var(--bar-bg);
+  --color-close-bg: var(--close-bg);
+  --color-overlay: rgba(20, 18, 16, 0.66);
+
+  --font-display: var(--font-cormorant), "Cormorant", serif;
+  --font-sans: var(--font-schibsted), "Schibsted Grotesk", system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), "JetBrains Mono", monospace;
+}
+
+@theme {
+  --spacing-gutter: clamp(18px, 4vw, 56px);
+
+  --radius-shot: 4px;
+  --radius-thumb: 6px;
+  --radius-card: 12px;
+  --radius-modal: 14px;
+
+  --shadow-card: 0 1px 2px rgba(27, 25, 23, 0.05), 0 22px 40px -28px rgba(27, 25, 23, 0.35);
+  --shadow-card-hover: 0 1px 2px rgba(27, 25, 23, 0.06), 0 40px 60px -30px rgba(27, 25, 23, 0.45);
+  --shadow-modal: 0 40px 90px -30px rgba(0, 0, 0, 0.5);
+
+  --ease-soft: cubic-bezier(0.16, 0.84, 0.24, 1);
+  --ease-pop: cubic-bezier(0.2, 0.7, 0.3, 1);
+
+  --animate-bob: bob 2.2s ease-in-out infinite;
+  --animate-fade: fade 0.22s ease both;
+  --animate-pop: pop 0.32s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+
+  @keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(9px); }
+  }
+  @keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes pop {
+    from { opacity: 0; transform: translateY(24px) scale(0.985); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* Etiqueta de 18px en mayúsculas: se repite en todo el sitio. */
+@utility label {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@layer base {
+  * {
+    transition-property: background-color, border-color, color;
+    transition-duration: 0.45s;
+    transition-timing-function: ease;
+  }
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+    scrollbar-gutter: stable;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--accent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: #bfe1f2;
+  }
+}
+
+/* Conmutador de tema: media luna girada en oscuro (sin estado en React). */
+html[data-theme="dark"] [data-theme-toggle] {
+  transform: rotate(180deg);
+}
+
+/* Reveals: ocultos solo si hay JS y el usuario no pide menos movimiento. */
+@media (prefers-reduced-motion: no-preference) {
+  html.js [data-reveal="up"]:not([data-revealed]) {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+[data-reveal="up"] {
+  transition:
+    opacity 1s var(--ease-soft),
+    transform 1.15s var(--ease-soft),
+    color 0.45s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-bob {
+    animation: none;
+  }
+}
