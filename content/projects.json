@@ -202,5 +202,47 @@
     "screenshot": "/screenshots/twenty4-studios.webp",
     "embeddable": true,
     "screenshotMobile": "/screenshots/twenty4-studios-mobile.webp"
+  },
+  {
+    "slug": "la-maraca",
+    "cliente": "MARACA",
+    "tipo": "Web de agencia creativa",
+    "cat": "Webs",
+    "stack": "Web a medida · Motion",
+    "anio": "2026",
+    "dominio": "lamaraca.com",
+    "desc": "Creative house y partner creativo en Madrid: branding, estrategia de comunicación, contenido, diseño web, campañas y eventos. Web de presentación con tipografía de gran tamaño y portfolio de trabajos.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/la-maraca.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/la-maraca-mobile.webp"
+  },
+  {
+    "slug": "melano",
+    "cliente": "Melano",
+    "tipo": "Web de heladería",
+    "cat": "Webs",
+    "stack": "Next.js · Web a medida",
+    "anio": "2026",
+    "dominio": "melanohelados.com",
+    "desc": "Helados y cafetería desde 1910 en Las Varillas, Córdoba, con las recetas que Pietro trajo del Piamonte. Web con historia, carta de sabores, sucursales, franquicias y pedido online.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/melano.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/melano-mobile.webp"
+  },
+  {
+    "slug": "lancome-manantial",
+    "cliente": "I’m (not) fine",
+    "tipo": "Campaña de salud mental",
+    "cat": "Webs",
+    "stack": "Web a medida · Cuestionario",
+    "anio": "2026",
+    "dominio": "fundacionmanantial.org/lancome",
+    "desc": "Campaña de Lancôme y Fundación Manantial para la prevención de los problemas de salud mental de las mujeres: lo que decimos frente a lo que no decimos, vídeo y cuestionario para descubrir cómo estás.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/lancome-manantial.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/lancome-manantial-mobile.webp"
   }
 ]
