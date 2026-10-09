@@ -40,7 +40,37 @@ function distribute(projects: Project[], n: number) {
     col.items.push({ p, i });
     col.h += cardHeight(p.ratio);
   });
-  return cols.map((c) => c.items);
+
+  // Igualar columnas: intercambia tarjetas entre la más larga y la más corta mientras eso reduzca la
+  // diferencia. La primera de cada columna no se mueve, para no alterar la fila de arriba.
+  for (let paso = 0; paso < 20; paso++) {
+    const orden = [...cols].sort((a, b) => a.h - b.h);
+    const corta = orden[0];
+    const larga = orden[orden.length - 1];
+    const diff = larga.h - corta.h;
+    let mejor: { a: number; b: number; diff: number } | null = null;
+    larga.items.forEach((x, ix) => {
+      if (ix === 0) return;
+      const hx = cardHeight(x.p.ratio);
+      corta.items.forEach((y, iy) => {
+        if (iy === 0) return;
+        const hy = cardHeight(y.p.ratio);
+        const nuevo = Math.abs(diff - 2 * (hx - hy));
+        if (nuevo < diff - 0.01 && (!mejor || nuevo < mejor.diff)) mejor = { a: ix, b: iy, diff: nuevo };
+      });
+    });
+    if (!mejor) break;
+    const { a: ix, b: iy } = mejor;
+    const x = larga.items[ix];
+    const y = corta.items[iy];
+    larga.items[ix] = y;
+    corta.items[iy] = x;
+    larga.h += cardHeight(y.p.ratio) - cardHeight(x.p.ratio);
+    corta.h += cardHeight(x.p.ratio) - cardHeight(y.p.ratio);
+  }
+
+  // Dentro de cada columna, mantener el orden del JSON.
+  return cols.map((c) => c.items.sort((a, b) => a.i - b.i));
 }
 
 type Props = {

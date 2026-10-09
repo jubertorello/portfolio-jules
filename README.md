@@ -13,7 +13,11 @@ npm run dev
 
 ## Proyectos
 
-Los proyectos viven en [`content/projects.json`](content/projects.json). El orden del JSON es el orden del feed (los tres primeros forman la fila de arriba). Campos principales:
+Los proyectos viven en [`content/projects.json`](content/projects.json).
+
+**Los más recientes van primero:** un proyecto nuevo se añade al principio del array. El feed respeta ese orden, así que los tres primeros forman la fila de arriba. Las tarjetas se reparten por columnas buscando que queden igual de altas, pero la primera de cada columna nunca se mueve.
+
+Campos principales:
 
 - `formato`: `horizontal` (captura de escritorio, 16/9) o `vertical` (captura de móvil, 3/4).
 - `screenshot` / `screenshotMobile`: rutas en `public/screenshots/`. Si pones una ruta propia, el script de capturas no la pisa.
