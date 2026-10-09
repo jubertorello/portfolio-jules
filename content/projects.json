@@ -112,20 +112,6 @@
     "screenshotMobile": "/screenshots/all-in-sports-mobile.webp"
   },
   {
-    "slug": "andrea-sartori",
-    "cliente": "Andrea Sartori Inmobiliaria",
-    "tipo": "Web inmobiliaria",
-    "cat": "Webs",
-    "stack": "Web a medida · Fichas de propiedad",
-    "anio": "2026",
-    "dominio": "andreasartoriinmobiliaria.com",
-    "desc": "Inmobiliaria con catálogo de propiedades, fichas con galería y contacto directo por inmueble.",
-    "formato": "horizontal",
-    "screenshot": "/screenshots/andrea-sartori.webp",
-    "embeddable": false,
-    "screenshotMobile": "/screenshots/andrea-sartori-mobile.webp"
-  },
-  {
     "slug": "oma-by-luchi",
     "cliente": "Oma by Luchi",
     "tipo": "Tienda Shopify",
@@ -140,18 +126,32 @@
     "screenshotMobile": "/screenshots/oma-by-luchi-mobile.webp"
   },
   {
-    "slug": "eter",
-    "cliente": "Éter",
-    "tipo": "Web de bar de cócteles",
+    "slug": "unrated",
+    "cliente": "UNRATED",
+    "tipo": "Web de agencia creativa",
     "cat": "Webs",
-    "stack": "Web a medida · Carta digital",
+    "stack": "Web a medida · Motion",
     "anio": "2026",
-    "dominio": "eter-bar.vercel.app",
-    "desc": "Bar de cócteles de autor. Web de atmósfera oscura con carta digital, reservas y presentación de espacio.",
+    "dominio": "unratedagency.com",
+    "desc": "Agencia creativa de Barcelona especializada en eventos y producción. Web de presentación con ritmo editorial y animaciones sutiles.",
     "formato": "vertical",
-    "screenshot": "/screenshots/eter.webp",
+    "screenshot": "/screenshots/unrated.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/unrated-mobile.webp"
+  },
+  {
+    "slug": "twenty4-studios",
+    "cliente": "Twenty4 Studios",
+    "tipo": "Web de estudio creativo",
+    "cat": "Webs",
+    "stack": "Web a medida · Portfolio",
+    "anio": "2026",
+    "dominio": "twenty4studios.com",
+    "desc": "Estudio de producción audiovisual. Web portfolio con reels, casos de cliente y contacto comercial.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/twenty4-studios.webp",
     "embeddable": true,
-    "screenshotMobile": "/screenshots/eter-mobile.webp"
+    "screenshotMobile": "/screenshots/twenty4-studios-mobile.webp"
   },
   {
     "slug": "mariu-y-nacho",
@@ -181,20 +181,6 @@
       }
     ],
     "screenshotMobile": "/screenshots/mariu-y-nacho-mobile.webp"
-  },
-  {
-    "slug": "unrated",
-    "cliente": "UNRATED",
-    "tipo": "Web de agencia creativa",
-    "cat": "Webs",
-    "stack": "Web a medida · Motion",
-    "anio": "2026",
-    "dominio": "unratedagency.com",
-    "desc": "Agencia creativa de Barcelona especializada en eventos y producción. Web de presentación con ritmo editorial y animaciones sutiles.",
-    "formato": "vertical",
-    "screenshot": "/screenshots/unrated.webp",
-    "embeddable": false,
-    "screenshotMobile": "/screenshots/unrated-mobile.webp"
   },
   {
     "slug": "faro",
@@ -232,17 +218,31 @@
     ]
   },
   {
-    "slug": "twenty4-studios",
-    "cliente": "Twenty4 Studios",
-    "tipo": "Web de estudio creativo",
+    "slug": "andrea-sartori",
+    "cliente": "Andrea Sartori Inmobiliaria",
+    "tipo": "Web inmobiliaria",
     "cat": "Webs",
-    "stack": "Web a medida · Portfolio",
+    "stack": "Web a medida · Fichas de propiedad",
     "anio": "2026",
-    "dominio": "twenty4studios.com",
-    "desc": "Estudio de producción audiovisual. Web portfolio con reels, casos de cliente y contacto comercial.",
+    "dominio": "andreasartoriinmobiliaria.com",
+    "desc": "Inmobiliaria con catálogo de propiedades, fichas con galería y contacto directo por inmueble.",
+    "formato": "horizontal",
+    "screenshot": "/screenshots/andrea-sartori.webp",
+    "embeddable": false,
+    "screenshotMobile": "/screenshots/andrea-sartori-mobile.webp"
+  },
+  {
+    "slug": "eter",
+    "cliente": "Éter",
+    "tipo": "Web de bar de cócteles",
+    "cat": "Webs",
+    "stack": "Web a medida · Carta digital",
+    "anio": "2026",
+    "dominio": "eter-bar.vercel.app",
+    "desc": "Bar de cócteles de autor. Web de atmósfera oscura con carta digital, reservas y presentación de espacio.",
     "formato": "vertical",
-    "screenshot": "/screenshots/twenty4-studios.webp",
+    "screenshot": "/screenshots/eter.webp",
     "embeddable": true,
-    "screenshotMobile": "/screenshots/twenty4-studios-mobile.webp"
+    "screenshotMobile": "/screenshots/eter-mobile.webp"
   }
 ]
