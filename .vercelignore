@@ -1,0 +1,7 @@
+.next
+node_modules
+.git
+uploads
+*.dc.html
+support.js
+image-slot.js
