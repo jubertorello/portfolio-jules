@@ -1,5 +1,19 @@
 [
   {
+    "slug": "jules-and-pabs",
+    "cliente": "Julieta & Pablo",
+    "tipo": "Invitación digital de boda",
+    "cat": "Invitaciones",
+    "stack": "Next.js · Supabase · RSVP",
+    "anio": "2026",
+    "dominio": "jules-and-pabs.vercel.app",
+    "desc": "Invitación digital de boda con la historia de la pareja, ubicaciones de la ceremonia y la celebración, cuenta atrás, itinerario del día, sugerencias de música, lista de regalos y confirmación de asistencia.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/jules-and-pabs.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/jules-and-pabs-mobile.webp"
+  },
+  {
     "slug": "la-maraca",
     "cliente": "MARACA",
     "tipo": "Web de agencia creativa",
