@@ -1,19 +1,5 @@
 [
   {
-    "slug": "jules-and-pabs",
-    "cliente": "Julieta & Pablo",
-    "tipo": "Invitación digital de boda",
-    "cat": "Invitaciones",
-    "stack": "Next.js · Supabase · RSVP",
-    "anio": "2026",
-    "dominio": "jules-and-pabs.vercel.app",
-    "desc": "Invitación digital de boda con la historia de la pareja, ubicaciones de la ceremonia y la celebración, cuenta atrás, itinerario del día, sugerencias de música, lista de regalos y confirmación de asistencia.",
-    "formato": "vertical",
-    "screenshot": "/screenshots/jules-and-pabs.webp",
-    "embeddable": true,
-    "screenshotMobile": "/screenshots/jules-and-pabs-mobile.webp"
-  },
-  {
     "slug": "la-maraca",
     "cliente": "MARACA",
     "tipo": "Web de agencia creativa",
@@ -168,35 +154,6 @@
     "screenshotMobile": "/screenshots/twenty4-studios-mobile.webp"
   },
   {
-    "slug": "mariu-y-nacho",
-    "cliente": "Mariu & Nacho",
-    "tipo": "Invitación digital de boda",
-    "cat": "Invitaciones",
-    "stack": "Web a medida · RSVP",
-    "anio": "2026",
-    "dominio": "mariu-y-nacho.vercel.app",
-    "desc": "Invitación digital de boda: cuenta atrás, itinerario del día, ubicaciones, confirmación de asistencia y lista de regalos.",
-    "formato": "vertical",
-    "screenshot": "/screenshots/mariu-y-nacho.webp",
-    "embeddable": true,
-    "extra": "Panel de control privado: confirmaciones, autobús, dietas y export a Excel",
-    "extraImages": [
-      {
-        "src": "/screenshots/mariu-y-nacho-panel.webp",
-        "alt": "Panel de control de confirmaciones",
-        "width": 2940,
-        "height": 1592
-      },
-      {
-        "src": "/screenshots/mariu-y-nacho-detalle.webp",
-        "alt": "Detalle de una confirmación",
-        "width": 1194,
-        "height": 1222
-      }
-    ],
-    "screenshotMobile": "/screenshots/mariu-y-nacho-mobile.webp"
-  },
-  {
     "slug": "faro",
     "cliente": "F.A.R.O",
     "tipo": "App de planificación personal",
@@ -258,5 +215,48 @@
     "screenshot": "/screenshots/eter.webp",
     "embeddable": true,
     "screenshotMobile": "/screenshots/eter-mobile.webp"
+  },
+  {
+    "slug": "mariu-y-nacho",
+    "cliente": "Mariu & Nacho",
+    "tipo": "Invitación digital de boda",
+    "cat": "Invitaciones",
+    "stack": "Web a medida · RSVP",
+    "anio": "2026",
+    "dominio": "mariu-y-nacho.vercel.app",
+    "desc": "Invitación digital de boda: cuenta atrás, itinerario del día, ubicaciones, confirmación de asistencia y lista de regalos.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/mariu-y-nacho.webp",
+    "embeddable": true,
+    "extra": "Panel de control privado: confirmaciones, autobús, dietas y export a Excel",
+    "extraImages": [
+      {
+        "src": "/screenshots/mariu-y-nacho-panel.webp",
+        "alt": "Panel de control de confirmaciones",
+        "width": 2940,
+        "height": 1592
+      },
+      {
+        "src": "/screenshots/mariu-y-nacho-detalle.webp",
+        "alt": "Detalle de una confirmación",
+        "width": 1194,
+        "height": 1222
+      }
+    ],
+    "screenshotMobile": "/screenshots/mariu-y-nacho-mobile.webp"
+  },
+  {
+    "slug": "jules-and-pabs",
+    "cliente": "Julieta & Pablo",
+    "tipo": "Invitación digital de boda",
+    "cat": "Invitaciones",
+    "stack": "Next.js · Supabase · RSVP",
+    "anio": "2026",
+    "dominio": "jules-and-pabs.vercel.app",
+    "desc": "Invitación digital de boda con la historia de la pareja, ubicaciones de la ceremonia y la celebración, cuenta atrás, itinerario del día, sugerencias de música, lista de regalos y confirmación de asistencia.",
+    "formato": "vertical",
+    "screenshot": "/screenshots/jules-and-pabs.webp",
+    "embeddable": true,
+    "screenshotMobile": "/screenshots/jules-and-pabs-mobile.webp"
   }
 ]

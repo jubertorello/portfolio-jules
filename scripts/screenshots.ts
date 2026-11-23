@@ -24,7 +24,7 @@ const JSON_PATH = path.join(ROOT, "content/projects.json");
 const OUT_DIR = path.join(ROOT, "public/screenshots");
 const VIEWPORT = { width: 1440, height: 810 };
 const MOBILE = { ...devices["iPhone 15"], viewport: { width: 393, height: 852 }, deviceScaleFactor: 2 };
-const SETTLE_MS = 2000; // margen para animaciones de entrada y lazy-loading
+const SETTLE_MS = 3500; // margen para animaciones de entrada, spinners y lazy-loading
 
 // Banners de consentimiento que tapan la captura. Se ocultan con CSS (no se acepta nada).
 const HIDE_CSS = `
